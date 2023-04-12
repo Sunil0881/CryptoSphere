@@ -49,7 +49,7 @@ function Header() {
               variant="h6"
               className={classes.title}
             >
-              Crypto Hunter
+              CryptoSphere
             </Typography>
             {/* <Button color="inherit">Login</Button> */}
             <Select
@@ -62,6 +62,7 @@ function Header() {
             >
               <MenuItem value={"USD"}>USD</MenuItem>
               <MenuItem value={"INR"}>INR</MenuItem>
+              
             </Select>
           </Toolbar>
         </Container>
